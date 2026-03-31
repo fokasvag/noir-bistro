@@ -1,0 +1,164 @@
+body{
+    margin:0;
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #0a0a0a;
+    color:#e8e4dc;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color: #0a0a0a;
+    padding:12px 16px;
+}
+
+nav{
+    display:flex;
+    gap:10px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-size:11px;
+ }
+
+ .logo{
+    font-size:16px;
+ }
+
+ .hero{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+ }
+
+ .btn{
+    background: #c9a96e;
+    padding:12px 24px;
+    border-radius:12px;
+    color:black;
+    text-decoration: none;
+    transition:0.3s;
+ }
+ .btn:hover{
+    transform:translateY(-5px);
+    opacity:0.85;
+ }
+
+ .about{
+    padding:80px 40px;
+    margin:0 auto;
+    max-width: 700px;
+    text-align:center;
+ }
+
+ .menu{
+    padding:80px 40px;
+    text-align:center;
+ }
+
+ .menu-grid{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap:20px;
+ }
+
+ .menu-item{
+    padding:32px;
+    border:1px solid #c9a96e;
+    flex:1;
+    text-align:center;
+    transition: 0.3s;
+ }
+
+ .menu-item:hover{
+    transform: translateY(-5px);
+    border:1px solid #e8d5b0;
+ }
+
+ .reservations{
+    padding:80px 40px;
+    text-align:center;
+ }
+
+ .reservation-form{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    max-width:500px;
+    margin:40px auto 0;
+    transition:0.3s;
+ }
+
+ .reservation-form input{
+    padding:12px;
+    background:#1a1a1a;
+    border:1px solid #c9a96e;
+    color:white;
+ }
+
+ .reservation-form button:hover{
+    opacity:0.85;
+    transform:translateY(-3px);
+    cursor:pointer;
+ }
+
+ .contact{
+    padding:80px 40px;
+    margin:0 auto;
+    max-width: 700px;
+    text-align:center;
+ }
+
+ footer{
+    text-align:center;
+    padding:20px;
+    border-top:1px solid #c9a96e;
+    color:#888;
+    font-size:12px;
+ }
+
+ nav a:hover{
+    color:#c9a96e;
+    transition:color 0.3s;
+ 
+ }
+
+ @media(max-width:320px){
+    header{
+        flex-direction:column;
+        gap:10px;
+        align-items:center;
+        padding:12px 16px;
+    }
+
+    .menu-grid{
+        flex-direction:column;
+    }
+
+    .menu-item{
+        width:100%;
+    }
+
+    .reservations-form{
+        max-width:100%;
+        padding:0 20px;
+    }
+
+    nav{
+        flex-wrap:wrap;
+        justify-content:center;
+        font-size:12px;
+    }
+ }
