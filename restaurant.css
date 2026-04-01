@@ -31,7 +31,8 @@ nav a{
 
  .logo{
     font-size:16px;
- }
+    color: #c9a96e;
+    letter-spacing: 3px; }
 
  .hero{
     display:flex;
