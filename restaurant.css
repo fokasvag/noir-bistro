@@ -44,12 +44,12 @@ nav a{
  }
 
  .hero h1{
-   font-size:56px;
-   font-weight:700;
-   letter-spacing:4px;
-   margin-bottom:16px;
-   }
-
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-bottom: 16px;
+}
  .hero p{
    font-size:14px;
    letter-spacing:3px;
